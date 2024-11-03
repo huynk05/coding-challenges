@@ -1,0 +1,200 @@
+.quiz-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.join-room {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+  margin: 100px auto;
+}
+
+.players-list, .leaderboard {
+  padding: 20px;
+  background: #f5f5f5;
+  border-radius: 8px;
+}
+
+.question-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+button:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+input:disabled {
+  background: #f5f5f5;
+  cursor: not-allowed;
+}
+
+.game-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.join-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.join-container input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.waiting-room {
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.players-list {
+  margin: 20px 0;
+  padding: 20px;
+  background: #f5f5f5;
+  border-radius: 8px;
+}
+
+.player-item {
+  padding: 10px;
+  margin: 5px 0;
+  background: white;
+  border-radius: 4px;
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.question-container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.options-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.option-button {
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.option-button:hover {
+  background: #0056b3;
+}
+
+.leaderboard {
+  padding: 20px;
+  background: #f5f5f5;
+  border-radius: 8px;
+}
+
+.leaderboard-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 5px 0;
+  background: white;
+  border-radius: 4px;
+}
+
+.error {
+  color: red;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background: #28a745;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #218838;
+}
+
+button:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+}
+
+input:disabled {
+  background: #f5f5f5;
+  cursor: not-allowed;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.leave-button {
+  background: #dc3545;
+}
+
+.leave-button:hover {
+  background: #c82333;
+} 
