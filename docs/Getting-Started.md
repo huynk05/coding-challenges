@@ -25,8 +25,8 @@
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/your-repo/quiz-game.git
-cd quiz-game
+git clone git@github.com:huynk05/coding-challenges.git
+cd coding-challenges
 ```
 
 ### 2. Project Structure
